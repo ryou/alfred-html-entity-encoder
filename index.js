@@ -3,7 +3,7 @@ const Entities = require('html-entities').AllHtmlEntities
 
 const entities = new Entities()
 
-const main = async () => {
+const main = () => {
   const encodedString = entities.encode(alfy.input)
 
   alfy.output([{
